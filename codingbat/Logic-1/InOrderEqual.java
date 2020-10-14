@@ -16,16 +16,16 @@
 
 public class InOrderEqual
 {
-	public boolean inOrderEqual(int a, int b, int c, boolean equalOk)
-	{
-		if (c == b || b == a)
-		{
-			if (equalOk)
-				return c >= b && b >= a;
-			else
-				return false;
-		}
-		else
-			return c > b && b > a;
-	}
+  public boolean inOrderEqual(int a, int b, int c, boolean equalOk)
+  {
+    if (c == b || b == a)
+    {
+      if (equalOk)
+        return c >= b && b >= a;
+      else
+        return false;
+    }
+    else
+      return c > b && b > a;
+  }
 }

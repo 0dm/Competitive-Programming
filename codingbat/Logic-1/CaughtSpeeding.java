@@ -19,14 +19,14 @@
 
 public class CaughtSpeeding
 {
-	public int caughtSpeeding(int speed, boolean isBirthday)
-	{
-		if (isBirthday)
-			speed -= 5;
+  public int caughtSpeeding(int speed, boolean isBirthday)
+  {
+    if (isBirthday)
+      speed -= 5;
 
-		if (speed > 60)
-			return speed > 80 ? 2 : 1;
+    if (speed > 60)
+      return speed > 80 ? 2 : 1;
 
-		return 0;
-	}
+    return 0;
+  }
 }

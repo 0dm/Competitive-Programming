@@ -17,15 +17,15 @@
 
 public class GreenTicket
 {
-	public int greenTicket(int a, int b, int c)
-	{
-	  if (a == b || a == c || b == c) 
-	  {
-	    if (b == c && a == b) 
-		    return 20;
-		else
-		  return 10;
-	  }
-	  return 0;
-	}
+  public int greenTicket(int a, int b, int c)
+  {
+    if (a == b || a == c || b == c) 
+    {
+      if (b == c && a == b) 
+        return 20;
+    else
+      return 10;
+    }
+    return 0;
+  }
 }

@@ -17,8 +17,8 @@
 
 public class EvenlySpaced 
 {
-	public boolean evenlySpaced(int a, int b, int c)
-	{
-	  return (a - b == b - c || a - b == c - a || a - c == c - b);
-	}
+  public boolean evenlySpaced(int a, int b, int c)
+  {
+    return (a - b == b - c || a - b == c - a || a - c == c - b);
+  }
 }

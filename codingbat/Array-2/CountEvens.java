@@ -15,16 +15,16 @@
 
 public class CountEvens 
 {
-	public static countEvens(int[] nums)
-	{
-	  int count = 0;
-		for (int i : nums)
-		{
-		  if (i % 2 == 0)
-		  {
-		    count++;
-		  }
-		}
-		return count;
-	}
+  public static countEvens(int[] nums)
+  {
+    int count = 0;
+    for (int i : nums)
+    {
+      if (i % 2 == 0)
+      {
+        count++;
+      }
+    }
+    return count;
+  }
 }

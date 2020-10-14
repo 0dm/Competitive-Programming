@@ -16,15 +16,15 @@
 
 public class BigDiff
 {
-	public int bigDiff(int[] nums)
-	{
-		int smallest = nums[0];
-		int biggest = nums[0];
-		for (int i = 1; i < nums.length; i++)
-		{
-			smallest = Math.min(smallest, nums[i]);
-			biggest = Math.max(biggest, nums[i]);
-		}
-		return biggest - smallest;
-	}
+  public int bigDiff(int[] nums)
+  {
+    int smallest = nums[0];
+    int biggest = nums[0];
+    for (int i = 1; i < nums.length; i++)
+    {
+      smallest = Math.min(smallest, nums[i]);
+      biggest = Math.max(biggest, nums[i]);
+    }
+    return biggest - smallest;
+  }
 }

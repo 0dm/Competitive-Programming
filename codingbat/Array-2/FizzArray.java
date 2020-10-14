@@ -19,12 +19,12 @@
 
 public class FizzArray 
 {
-	public int[] fizzArray(int nums)
-	{
-		int[] fizz = new int[nums];
-		for (int i = 0; i < nums; i++)
-		  fizz[i] = i;
-		return fizz;
-	}
+  public int[] fizzArray(int nums)
+  {
+    int[] fizz = new int[nums];
+    for (int i = 0; i < nums; i++)
+      fizz[i] = i;
+    return fizz;
+  }
 }
 

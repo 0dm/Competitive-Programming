@@ -15,8 +15,8 @@
 
 public class LessBy10
 {
-	public boolean lessBy10(int a, int b, int c)
-	{
-	  return a - 9 > b || a - 9 > c || b - 9 > c || b - 9 > a || c - 9 > a || c - 9 > b;
-	}
+  public boolean lessBy10(int a, int b, int c)
+  {
+    return a - 9 > b || a - 9 > c || b - 9 > c || b - 9 > a || c - 9 > a || c - 9 > b;
+  }
 }

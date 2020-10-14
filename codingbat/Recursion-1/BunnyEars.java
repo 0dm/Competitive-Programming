@@ -16,8 +16,8 @@
 
 public class BunnyEars 
 {
-	public int bunnyEars(int bunnies)
-	{
-		return bunnies != 0 ? bunnyEars(bunnies - 1) + 2 : 0;
-	}
+  public int bunnyEars(int bunnies)
+  {
+    return bunnies != 0 ? bunnyEars(bunnies - 1) + 2 : 0;
+  }
 }

@@ -16,18 +16,18 @@
 
 public class MatchUp
 {
-	public int matchUp(int[] nums1, int[] nums2)
-	{
-		int count = 0;
-		for (int i = 0; i < nums1.length; i++)
-		{
-			int n1 = nums1[i];
-			int n2 = nums2[i];
-			if (n1 != n2 && Math.abs(n1 - n2) <= 2)
-			{
-					count++;
-			}
-		}
-		return count;
-	}
+  public int matchUp(int[] nums1, int[] nums2)
+  {
+    int count = 0;
+    for (int i = 0; i < nums1.length; i++)
+    {
+      int n1 = nums1[i];
+      int n2 = nums2[i];
+      if (n1 != n2 && Math.abs(n1 - n2) <= 2)
+      {
+          count++;
+      }
+    }
+    return count;
+  }
 }
